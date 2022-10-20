@@ -1,0 +1,70 @@
+.App {
+    max-width: 1620px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.card-container {
+    display: flex;
+    gap: 30px;
+    justify-content: center;
+    flex-wrap: wrap;
+    
+}
+
+.search {
+   display: flex;
+   justify-content: center;
+   margin-top: 20px;
+   
+}
+
+.filter {
+   margin-left: auto;
+   margin-right: auto;
+    text-align: center;
+    cursor: pointer;
+    background-color: black;
+    color: white;
+    width: 310px;
+    margin-top: 0;
+    margin-bottom: 20px;
+    position: absolute;left: 50%;
+    margin-left: -155px;
+    z-index: 4;
+    
+}
+
+.list {
+    padding: 8px 15px;
+    cursor: pointer;
+}
+
+.list:hover {
+    background-color:rgb(74, 71, 71);
+    color: white;
+    transition: background-color  300ms;
+}
+
+input {
+    width: 250px;
+    height: 40px;
+    border: 0;
+}
+
+button{
+    width: 60px;
+    height: 40px;
+    background-color: white;
+    cursor: pointer;
+    
+}
+
+button:hover {
+    background-color:black;
+    color: white;
+    transition: background-color  500ms;
+}
+
+
+
